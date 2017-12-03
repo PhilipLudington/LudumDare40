@@ -1,7 +1,7 @@
 Maybe = instance_nearest(x,y,objectPlayer);
 Range = distance_to_object(Maybe);
 
-if(Maybe != noone && Range < 1)
+if(instance_exists(Maybe) && Range < 6)
 {
 	room_goto(asset_get_index("roomEscape"));
 }

@@ -1,12 +1,19 @@
 TODO
 
 *** Important ***
-- Fix Totem not firing
+- Fix Keeper stuck instead fo chasing
 - Sumon Totems
 - Fix Detect Magic
 - Dispell magic
 
+*** Must Do Eventually ***
+- Remove debug lines and circles
+- Add copyright notice
+
 *** Maybe ***
 - Center the player (move the map around the payer)
 - Make the map much bigger
-- 
+- Add attach animation to Keepers
+- Add Health to player
+- Add Attack Mode to Keepers
+- Reduce strength of fireballs, add knock back effect

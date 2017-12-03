@@ -1,4 +1,4 @@
-if(Target != noone)
+if(instance_exists(Target))
 {
 	var SavedColor = draw_get_color();
 	draw_set_color(c_red);

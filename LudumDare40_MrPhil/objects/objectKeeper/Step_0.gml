@@ -6,15 +6,10 @@ if(!instance_exists(Target))
 var RangeToPlayer = 1000;
 if(instance_exists(Target))
 {
-	mp_potential_step(Target.x, Target.y, room_speed / 30, true);
-
-	if(distance_to_point(Target.x, Target.x) < 1)
-	{
-		Target = noone;
-	}
+	mp_potential_step_object(Target.x, Target.y, BaseSpeed, objectWall);
 
 	RangeToPlayer = distance_to_object(Target);
-	if( RangeToPlayer < 5)
+	if( RangeToPlayer < 7)
 	{
 		room_goto(asset_get_index("roomDeath"));
 	}

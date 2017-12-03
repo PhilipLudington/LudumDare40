@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1b006148-f34c-4349-aa0b-bec68c3d6cd8",
+            "Value": {
+                "id": "73149ca5-1bde-48a5-9f1c-fe582863d332",
+                "resourcePath": "rooms\\room3_SplashScreen\\room3_SplashScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2144864e-b477-442e-9057-2b83f88d3775",
             "Value": {
                 "id": "9773ccde-9b1c-41ac-8a0f-f0acc7bed25d",
