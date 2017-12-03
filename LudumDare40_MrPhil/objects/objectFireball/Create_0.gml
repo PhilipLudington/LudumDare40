@@ -1,0 +1,1 @@
+alarm_set(11, room_speed * 3); // Die
