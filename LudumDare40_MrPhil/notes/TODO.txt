@@ -1,9 +1,10 @@
 TODO
 
 *** Important ***
-- Remove other spells (just Totems)
-- Add Help screen
-- BUG: (unsure) seems like the Totums are firing when you'd expect
+- Add totem count
+- Add Start screen
+- BUG: ? and F1 aren't showing the help screen
+- BUG: (unsure) seems like the Totums aren't firing when you'd expect
 
 *** Must Do Eventually ***
 - Remove debug lines and circles

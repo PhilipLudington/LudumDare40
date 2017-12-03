@@ -72,27 +72,27 @@ if(IsCasting)
 else
 */
 {
-	if(keyboard_check(ord("W"))) //  || keyboard_check(ord("I")) || keyboard_check(vk_up))
+	if(keyboard_check(ord("W")) || keyboard_check(ord("I")) || keyboard_check(vk_up))
 	{
 		New_VSpeed -= BaseSpeed;
 	}
 
-	if(keyboard_check(ord("S"))) //  || keyboard_check(ord("K")) || keyboard_check(vk_down))
+	if(keyboard_check(ord("S")) || keyboard_check(ord("K")) || keyboard_check(vk_down))
 	{
 		New_VSpeed += BaseSpeed;
 	}
 
-	if(keyboard_check(ord("D"))) //  || keyboard_check(ord("L")) || keyboard_check(vk_right))
+	if(keyboard_check(ord("D")) || keyboard_check(ord("L")) || keyboard_check(vk_right))
 	{
 		New_HSpeed += BaseSpeed;
 	}
 
-	if(keyboard_check(ord("A"))) //  || keyboard_check(ord("J")) || keyboard_check(vk_left))
+	if(keyboard_check(ord("A")) || keyboard_check(ord("J")) || keyboard_check(vk_left))
 	{
 		New_HSpeed -= BaseSpeed;
 	}
 
-	if(keyboard_check_pressed(ord("E"))) //  || keyboard_check(ord("O")) || keyboard_check(vk_control))
+	if(keyboard_check_pressed(ord("E"))  || keyboard_check(ord("O")) || keyboard_check(vk_control))
 	{
 		//IsCasting = true;
 		
@@ -104,12 +104,12 @@ else
 	}
 		
 	// Help Screen
-	if(keyboard_check_pressed(ord("?"))  || keyboard_check(ord("H")) || keyboard_check(vk_f1))
+	if(keyboard_check(ord("H")) || keyboard_check(ord("/")) || keyboard_check(vk_tab) || keyboard_check(vk_f1))
 	{
 		with(HelpScreen)
 		{
 			visible = true;
-			alarm_set(0,90);
+			alarm_set(0,room_speed / 5);
 		}
 	}
 }
