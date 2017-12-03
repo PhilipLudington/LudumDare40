@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "f1faa859-505f-4926-a0c4-7c9255c46cd3",
+            "Value": {
+                "id": "17fbbc18-811f-4ca4-8666-f129fcc1947d",
+                "resourcePath": "notes\\TODO.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "f2070afe-2ff5-41cf-8dd9-df70ce8960ca",
             "Value": {
                 "id": "c2f031ad-b97f-472e-91c1-8516109b819b",

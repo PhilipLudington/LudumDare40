@@ -1,0 +1,12 @@
+TODO
+
+*** Important ***
+- Fix Totem not firing
+- Sumon Totems
+- Fix Detect Magic
+- Dispell magic
+
+*** Maybe ***
+- Center the player (move the map around the payer)
+- Make the map much bigger
+- 
