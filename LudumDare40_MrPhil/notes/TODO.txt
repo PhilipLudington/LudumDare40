@@ -1,7 +1,6 @@
 TODO
 
 *** Important ***
-- Fix Keeper stuck instead fo chasing
 - Sumon Totems
 - Fix Detect Magic
 - Dispell magic
@@ -17,3 +16,5 @@ TODO
 - Add Health to player
 - Add Attack Mode to Keepers
 - Reduce strength of fireballs, add knock back effect
+- BUG: Get stuck against walls and can't move in the other axis
+- BUG: (unsure) seems like the Totums are firing when you'd expect
