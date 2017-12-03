@@ -3,6 +3,7 @@ speed *= .8;
 var New_VSpeed = vspeed;
 var New_HSpeed = hspeed;
 
+/*
 if(IsCasting)
 {
 	if(keyboard_check_pressed(ord("E"))) // || keyboard_check(ord("O")) || keyboard_check(vk_control))
@@ -69,6 +70,7 @@ if(IsCasting)
 	}
 }
 else
+*/
 {
 	if(keyboard_check(ord("W"))) //  || keyboard_check(ord("I")) || keyboard_check(vk_up))
 	{
@@ -92,10 +94,22 @@ else
 
 	if(keyboard_check_pressed(ord("E"))) //  || keyboard_check(ord("O")) || keyboard_check(vk_control))
 	{
-		IsCasting = true;
-		with SpellBook
+		//IsCasting = true;
+		
+		// Sumon Totem
+		if(place_free(x,y))
+		{
+			instance_create_depth(x,y,2,objectTotem);
+		}
+	}
+		
+	// Help Screen
+	if(keyboard_check_pressed(ord("?"))  || keyboard_check(ord("H")) || keyboard_check(vk_f1))
+	{
+		with(HelpScreen)
 		{
 			visible = true;
+			alarm_set(0,90);
 		}
 	}
 }

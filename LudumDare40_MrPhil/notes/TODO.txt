@@ -1,9 +1,9 @@
 TODO
 
 *** Important ***
-- Sumon Totems
-- Fix Detect Magic
-- Dispell magic
+- Remove other spells (just Totems)
+- Add Help screen
+- BUG: (unsure) seems like the Totums are firing when you'd expect
 
 *** Must Do Eventually ***
 - Remove debug lines and circles
@@ -17,4 +17,3 @@ TODO
 - Add Attack Mode to Keepers
 - Reduce strength of fireballs, add knock back effect
 - BUG: Get stuck against walls and can't move in the other axis
-- BUG: (unsure) seems like the Totums are firing when you'd expect
