@@ -1,13 +1,10 @@
 TODO
 
 *** Important ***
-- Add Start screen
 - BUG: ? aren't showing the help screen (no clue why, submitted forum question: 
 	https://forum.yoyogames.com/index.php?threads/help-keyboard_check-ord-does-not-work.38839/
 
 *** Must Do Eventually ***
-- Remove debug lines and circles
-- Add copyright notice
 
 *** Maybe ***
 - Add attach animation to Keepers
@@ -24,7 +21,7 @@ will be necessary to defend yourself from the prison’s Keepers which grow stro
 No one has ever esacped, maybe you are different.
 
 You've imprisoned in special kind of prision for criminals with magic abilities, a Prision Maze.
-You’ve been restrained with a cursed breast plate limiting the spells you can cast.  The few spells you can
+You’ve been restrained with a cursed breast plate limiting the spells you can cast.  The few spells you can,
 will be necessary to defend yourself from the prison’s Keepers, magical Golems who's ranks grow stronger
 with each spell you cast.
 No one has ever esacped a Prison Maze, but you are different!  Maybe.
