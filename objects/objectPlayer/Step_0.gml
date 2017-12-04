@@ -113,9 +113,26 @@ if(keyboard_check(ord("H")) || keyboard_check(ord("/")) || keyboard_check(vk_tab
 	}
 }
 
+if(keyboard_check(ord("/")) && keyboard_check(vk_shift))
+{
+	show_debug_message("shift+/ pressed");
+	
+	with(HelpScreen)
+	{
+		visible = true;
+		alarm_set(0,room_speed / 5);
+	}
+}
+
 if(keyboard_check(ord("?")))
 {
 	show_debug_message("? pressed");
+		
+	with(HelpScreen)
+	{
+		visible = true;
+		alarm_set(0,room_speed / 5);
+	}
 }
 
 New_VSpeed = clamp(New_VSpeed, -BaseSpeed, BaseSpeed);
