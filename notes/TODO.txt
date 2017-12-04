@@ -3,7 +3,6 @@ TODO
 *** Important ***
 - Add Start screen
 - BUG: ? aren't showing the help screen
-- BUG: (unsure) seems like the Totums aren't firing when you'd expect
 
 *** Must Do Eventually ***
 - Remove debug lines and circles
