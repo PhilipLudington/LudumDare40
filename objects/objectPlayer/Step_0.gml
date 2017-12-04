@@ -102,38 +102,6 @@ if(keyboard_check_pressed(ord("E"))  || keyboard_check(ord("O")) || keyboard_che
 		instance_create_depth(x,y,2,objectTotem);
 	}
 }
-	
-// Help Screen ASCI 63 = ?
-if(keyboard_check(ord("H")) || keyboard_check(ord("/")) || keyboard_check(vk_tab) || keyboard_check(vk_f1))
-{
-	with(HelpScreen)
-	{
-		visible = true;
-		alarm_set(0,room_speed / 5);
-	}
-}
-
-if(keyboard_check(ord("/")) && keyboard_check(vk_shift))
-{
-	show_debug_message("shift+/ pressed");
-	
-	with(HelpScreen)
-	{
-		visible = true;
-		alarm_set(0,room_speed / 5);
-	}
-}
-
-if(keyboard_check(ord("?")))
-{
-	show_debug_message("? pressed");
-		
-	with(HelpScreen)
-	{
-		visible = true;
-		alarm_set(0,room_speed / 5);
-	}
-}
 
 New_VSpeed = clamp(New_VSpeed, -BaseSpeed, BaseSpeed);
 New_HSpeed = clamp(New_HSpeed, -BaseSpeed, BaseSpeed);

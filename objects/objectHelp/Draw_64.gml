@@ -1,4 +1,5 @@
 /// @description Totem count
+draw_self();
 var SavedColor = draw_get_color();
 draw_set_color(c_black);
 draw_set_font(fontDefault);

@@ -215,6 +215,22 @@
             }
         },
         {
+            "Key": "8c963358-78ad-483c-8530-e3377ae7075d",
+            "Value": {
+                "id": "0e35d544-feef-480e-bb21-c4c9cb0c6f9b",
+                "resourcePath": "sprites\\spriteSplashScreen\\spriteSplashScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e02281f-3c23-488f-b01d-f180a0c517f8",
+            "Value": {
+                "id": "89810289-a8a4-4b31-8495-77835f876132",
+                "resourcePath": "objects\\objectRoomSplashScreen\\objectRoomSplashScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "91328999-840f-49dd-94f6-ac671c5473df",
             "Value": {
                 "id": "d71a0fb5-dfee-417d-b18f-abdeab106505",

@@ -4,7 +4,7 @@ if(keyboard_check(vk_escape))
 }
 if(keyboard_check(vk_enter))
 {
-	game_restart();
+	room_goto_next();
 }
 
 // Help Screen 
@@ -22,6 +22,17 @@ if(keyboard_check(ord("/")) && keyboard_check(vk_shift))
 {
 	show_debug_message("shift+/ pressed");
 	
+	with(HelpScreen)
+	{
+		visible = true;
+		alarm_set(0,room_speed / 5);
+	}
+}
+
+if(keyboard_check(ord("?")))
+{
+	show_debug_message("? pressed");
+		
 	with(HelpScreen)
 	{
 		visible = true;
