@@ -1,6 +1,6 @@
 /// @description Spawn new keepers
 
-if(instance_number(objectKeeper) <= instance_number(objectTotem) + 3)
+if(instance_number(objectKeeper) <= instance_number(objectTotem))
 {
 	var Spawner = instance_nearest(x,y,objectFountain);
 	
